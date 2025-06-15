@@ -14,7 +14,7 @@
 
 对于业余爱好者、独立开发者以及任何想要探索 Remotion 魅力而无需承担财务压力的朋友来说，这是一个完美的起点。
 
-![演示 GIF - 屏幕录像显示点击"渲染视频"，进度条前进，然后点击"下载视频"将文件保存到本地。]((/public/demo.gif))
+![Demo GIF - A screen recording showing the process of clicking 'Render Video', the progress bar advancing, and then clicking 'Download Video' to save the file locally.](/public/demo.gif)
 
 
 ## 为什么说这个模板改变了游戏规则？
