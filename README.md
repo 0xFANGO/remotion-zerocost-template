@@ -51,14 +51,12 @@ Get your project up and running in minutes.
     cd your-repository-name
     ```
 
-3.  **Install dependencies:**
+3.  **Install Dependencies:**
     ```bash
     npm install
-    # or
-    yarn install
     ```
 
-4.  **Run the development server:**
+4.  **Run the Development Server:**
     ```bash
     npm run dev
     ```

@@ -53,8 +53,6 @@ Remotion 官方模板非常出色，但它们通常引导您走向在 AWS Lambda
 3.  **安装依赖：**
     ```bash
     npm install
-    # 或
-    yarn install
     ```
 
 4.  **运行开发服务器：**
