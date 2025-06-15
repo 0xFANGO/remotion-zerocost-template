@@ -14,8 +14,7 @@ This is a powerful, open-source Remotion + Next.js template designed to render a
 
 It's the perfect starting point for hobbyists, indie developers, and anyone who wants to explore the magic of Remotion without the financial commitment.
 
-![Demo GIF - A screen recording showing the process of clicking 'Render Video', the progress bar advancing, and then clicking 'Download Video' to save the file locally.](https://placehold.co/800x400/2d3748/ffffff/gif?text=Your+Epic+Demo+GIF+Here)
-*(Suggestion: Replace the placeholder above with a real GIF of your project in action!)*
+![Demo GIF - A screen recording showing the process of clicking 'Render Video', the progress bar advancing, and then clicking 'Download Video' to save the file locally.](/public/demo.gif)
 
 ## Why This Template is a Game-Changer
 
