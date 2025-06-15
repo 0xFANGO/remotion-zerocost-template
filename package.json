@@ -1,22 +1,24 @@
 {
-  "name": "my-video",
+  "name": "remotion-zerocost-template",
+  "description": "一个零成本的 Remotion + Next.js 模板，可完全在浏览器中渲染和导出视频，无需 AWS 或任何服务器端设置。",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "author": {
-    "name": "Mohit Yadav",
-    "email": "mohit@mohitya.dev",
-    "url": "https://mohitya.dev"
+    "name": "0xFANGO",
+    "url": "https://github.com/0xFANGO"
   },
   "dependencies": {
     "@remotion/bundler": "4.0.314",
     "@remotion/cli": "4.0.314",
+    "@remotion/compositor-darwin-arm64": "^4.0.314",
     "@remotion/google-fonts": "4.0.314",
-    "@remotion/lambda": "4.0.314",
     "@remotion/paths": "4.0.314",
     "@remotion/player": "4.0.314",
+    "@remotion/renderer": "4.0.314",
     "@remotion/shapes": "4.0.314",
     "@remotion/tailwind-v4": "4.0.314",
     "clsx": "2.1.1",
+    "html2canvas": "^1.4.1",
     "next": "15.2.4",
     "react": "19.0.0",
     "react-dom": "19.0.0",
@@ -25,8 +27,10 @@
     "zod": "3.22.3"
   },
   "devDependencies": {
-    "@remotion/eslint-plugin": "4.0.314",
     "@eslint/eslintrc": "3.1.0",
+    "@next/eslint-plugin-next": "15.1.6",
+    "@remotion/eslint-plugin": "4.0.314",
+    "@types/html2canvas": "^0.5.35",
     "@types/node": "20.12.14",
     "@types/react": "19.0.0",
     "@types/react-dom": "19.0.0",
@@ -34,7 +38,6 @@
     "autoprefixer": "10.4.20",
     "dotenv": "16.0.3",
     "eslint": "9.19.0",
-    "@next/eslint-plugin-next": "15.1.6",
     "eslint-config-next": "15.1.6",
     "postcss": "8.4.47",
     "prettier": "3.3.3",
@@ -47,7 +50,6 @@
     "start": "next start",
     "lint": "next lint",
     "remotion": "remotion studio",
-    "render": "remotion render",
-    "deploy": "node deploy.mjs"
+    "render": "remotion render"
   }
 }
